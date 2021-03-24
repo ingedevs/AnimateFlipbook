@@ -1,0 +1,21 @@
+﻿
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: lightgray;
+}
+
+.book {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: white;
+	margin: auto;
+	overflow:hidden;
+}
+
+.container {
+	background-color: lightgray;
+	margin: auto;
+}
