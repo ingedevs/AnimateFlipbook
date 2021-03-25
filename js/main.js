@@ -1,5 +1,6 @@
     const url = "docs/02.pdf";
 
+    // Set Varible
     let pdfDoc = null,
         pageNum = 1,
         weight,
@@ -8,6 +9,7 @@
     var scale = 2;
     var zoom = 1;
 
+    // Set Varible Media Query
     const mediaQuery = window.matchMedia('(min-width: 768px)');
     // Check if the media query is true
     if (mediaQuery.matches) {
@@ -17,8 +19,8 @@
         height=910;
     } else {
         turnDisplay = 'single';
-            weight=400;
-            height=580;
+        weight=400;
+        height=580;
     }
 
     // Render the page
