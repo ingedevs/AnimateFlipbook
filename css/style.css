@@ -10,12 +10,16 @@ body {
 
 .book {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	background-color: white;
+	background-color: rgb(141, 139, 139);
 	margin: auto;
-	overflow:hidden;
 }
 
 .container {
-	background-color: lightgray;
-	margin: auto;
+	background-color: rgb(78, 77, 77);
+	width: auto;
+	z-index: 1;
+}
+
+.top-bar {
+	z-index: 2;
 }
